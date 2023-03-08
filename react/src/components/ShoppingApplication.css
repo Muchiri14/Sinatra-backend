@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F8F8F8;
+    }
+    
+    h2 {
+    color: #4CAF50;
+    }
+    
+    /* Code Block Styles */
+    code {
+    font-family: Consolas, monospace;
+    }
+    
+    /* Button Styles */
+    button, input[type="submit"] {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    }
+    
+    button:hover, input[type="submit"]:hover {
+    background-color: #2E8B57;
+    }
+    
+    /* App Styles */
+    .App {
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 800px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    /* Shopping Item Styles */
+    .shopping-item {
+    background-color: #FFF;
+    border: 1px solid #E0E0E0;
+    border-bottom: none;
+    padding: 10px;
+    display: flex;
+    }
+    
+    .shopping-item-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4CAF50;
+    flex: 1;
+    }
+    
+    .shopping-cat {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    }
+    
+    .shopping-cat:hover {
+    background-color: #E0E0E0;
+    }
+    
+    .delete-button {
+    margin-left: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #E53935;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    }
+    
+    .delete-button:hover {
+    background-color: #C62828;
+    }
+    
+    .add-item-button {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    }
+    
+    /* Form Styles */
+    .new-shopping-item-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    }
+    
+    label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #4CAF50;
+    }
+    
+    input[type="text"], select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    }
+    
+    ::placeholder {
+    color: #E0E0E0;
+    }
+    
+    
+    
+    
+    
+    
