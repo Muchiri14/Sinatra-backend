@@ -2,10 +2,10 @@ puts "🌱 Seeding ..."
 
 User.destroy_all
 User.reset_pk_sequence
-User.create(username: "TestUser", email_address: "test@email.com", password: "123")
-User.create(username: "EllenRipley", email_address: "ellen.ripley@protonmail.com", password: "123")
-User.create(username: "SarahConnor", email_address: "sarah.connor@protonmail.com", password: "abc")
-User.create(username: "SidneyPrescott", email_address: "sidney.prescott@protonmail.com", password: "abc")
+User.create(username: "Daniel Muchiri", email_address: "muchiridaniel59@gmail.com", password: "111")
+User.create(username: "Kevin", email_address: "kevin@mail.com", password: "222")
+User.create(username: "James", email_address: "james@mail.com", password: "679")
+User.create(username: "Brad", email_address: "brad@mail.com", password: "abc")
 
 TodoCategory.destroy_all
 TodoCategory.reset_pk_sequence
