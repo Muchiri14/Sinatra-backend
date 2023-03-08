@@ -30,7 +30,7 @@ rake db:seed
 # start server
 shotgun
 ```
-
+To access the backend server containing users so as to login to the app click the following link http://127.0.0.1:9393/users
 Shotgun uses port 9393 by default.
 
 ## Relationships within Database
